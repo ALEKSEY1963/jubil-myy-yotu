@@ -8,67 +8,63 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <!-- <link
- href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
- rel="stylesheet"> -->
   </head>
-  <body class="text-gray-600">
-    <header class="flex fixed z-10 w-full bg-white">
-      <div class="flex item-center w-1/4 pl-4">
-        <button class="pl-2 pr-6">
-          <svg
-            class="w-10"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
-        </button>
-        <a href="/">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="120"
-            height="60"
-          >
-            <g transform="matrix(.223746 0 0 .223746 4.958506 17.693975)">
+  <body class="text-gray-600 bg-gray-50">
+    <header class="flex justify-between fixed z-30 w-full">
+      <div class="flex w-1/4">
+        <div class="flex items-center w-64 bg-white pl-4">
+          <button class="mr-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
               <path
-                d="M154.3 17.5c-1.8-6.7-7.1-12-13.8-13.8C128.4.4 79.7.4 79.7.4S31 .5 18.9 3.8c-6.7 1.8-12 7.1-13.8 13.8C1.9 29.7 1.9 55 1.9 55s0 25.3 3.3 37.5c1.8 6.7 7.1 12 13.8 13.8 12.1 3.3 60.8 3.3 60.8 3.3s48.7 0 60.8-3.3c6.7-1.8 12-7.1 13.8-13.8 3.3-12.1 3.3-37.5 3.3-37.5s-.1-25.3-3.4-37.5z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+          <a href="/">
+            <svg
+              class="w-20"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 492 110"
+              xmlns:v="https://vecta.io/nano"
+            >
+              <path
+                d="M154.3 17.5a19.6 19.6 0 0 0-13.8-13.8C128.4.4 79.7.4 79.7.4S31 .5 18.9 3.8A19.6 19.6 0 0 0 5.1 17.6C1.44 39.1.02 71.86 5.2 92.5A19.6 19.6 0 0 0 19 106.3c12.1 3.3 60.8 3.3 60.8 3.3s48.7 0 60.8-3.3a19.6 19.6 0 0 0 13.8-13.8c3.86-21.53 5.05-54.27-.1-75z"
                 fill="red"
               />
-              <path d="M104.6 55L64.2 31.6v46.8z" fill="#fff" />
+              <path fill="#fff" d="M64.2 78.4L104.6 55 64.2 31.6z" />
               <g fill="#282828">
                 <path
-                  d="M227.9 99.7c-3.1-2.1-5.3-5.3-6.6-9.7s-1.9-10.2-1.9-17.5v-9.9c0-7.3.7-13.3 2.2-17.7 1.5-4.5 3.8-7.7 7-9.7s7.3-3.1 12.4-3.1c5 0 9.1 1 12.1 3.1s5.3 5.3 6.7 9.7 2.1 10.3 2.1 17.6v9.9c0 7.3-.7 13.1-2.1 17.5s-3.6 7.6-6.7 9.7c-3.1 2-7.3 3.1-12.5 3.1-5.4.1-9.6-1-12.7-3zM245.2 89c.9-2.2 1.3-5.9 1.3-10.9V56.8c0-4.9-.4-8.5-1.3-10.7-.9-2.3-2.4-3.4-4.5-3.4s-3.5 1.1-4.4 3.4-1.3 5.8-1.3 10.7v21.3c0 5 .4 8.7 1.2 10.9s2.3 3.3 4.5 3.3c2.1 0 3.6-1.1 4.5-3.3zm219.2-16.3v3.5l.4 9.9c.3 2.2.8 3.8 1.6 4.8s2.1 1.5 3.8 1.5c2.3 0 3.9-.9 4.7-2.7.9-1.8 1.3-4.8 1.4-8.9l13.3.8c.1.6.1 1.4.1 2.4 0 6.3-1.7 11-5.2 14.1s-8.3 4.7-14.6 4.7c-7.6 0-12.9-2.4-15.9-7.1s-4.6-12.1-4.6-22V61.6c0-10.2 1.6-17.7 4.7-22.4 3.2-4.7 8.6-7.1 16.2-7.1 5.3 0 9.3 1 12.1 2.9s4.8 4.9 6 9 1.7 9.7 1.7 16.9v11.7h-25.7zm2-28.8c-.8 1-1.3 2.5-1.6 4.7s-.4 5.5-.4 10v4.9h11.2v-4.9c0-4.4-.1-7.7-.4-10s-.8-3.9-1.6-4.8-2-1.4-3.6-1.4c-1.7.1-2.9.6-3.6 1.5zM190.5 71.4L173 8.2h15.3l6.1 28.6c1.6 7.1 2.7 13.1 3.5 18h.4c.5-3.6 1.7-9.5 3.5-17.9l6.3-28.7h15.3l-17.7 63.1v30.3h-15.1V71.4z"
+                  d="M227.9 99.7c-3.1-2.1-5.3-5.3-6.6-9.7s-1.9-10.2-1.9-17.5v-9.9c0-7.3.7-13.3 2.2-17.7 1.5-4.5 3.8-7.7 7-9.7s7.3-3.1 12.4-3.1c5 0 9.1 1 12.1 3.1s5.3 5.3 6.7 9.7 2.1 10.3 2.1 17.6v9.9c0 7.3-.7 13.1-2.1 17.5s-3.6 7.6-6.7 9.7c-3.1 2-7.3 3.1-12.5 3.1-5.4.1-9.6-1-12.7-3zM245.2 89c.9-2.2 1.3-5.9 1.3-10.9V56.8c0-4.9-.4-8.5-1.3-10.7-.9-2.3-2.4-3.4-4.5-3.4s-3.5 1.1-4.4 3.4-1.3 5.8-1.3 10.7v21.3c0 5 .4 8.7 1.2 10.9s2.3 3.3 4.5 3.3c2.1 0 3.6-1.1 4.5-3.3zm219.2-16.3v3.5l.4 9.9c.3 2.2.8 3.8 1.6 4.8s2.1 1.5 3.8 1.5c2.3 0 3.9-.9 4.7-2.7.9-1.8 1.3-4.8 1.4-8.9l13.3.8c.1.6.1 1.4.1 2.4 0 6.3-1.7 11-5.2 14.1s-8.3 4.7-14.6 4.7c-7.6 0-12.9-2.4-15.9-7.1s-4.6-12.1-4.6-22V61.6c.34-17 3.33-29.45 20.9-29.5 5.3 0 9.3 1 12.1 2.9s4.8 4.9 6 9 1.7 9.7 1.7 16.9v11.7h-25.7zm2-28.8c-.8 1-1.3 2.5-1.6 4.7s-.4 10-.4 10v4.9h11.2v-4.9c0 4.9-.1-7.7-.4-10s-.8-3.9-1.6-4.8-2-1.4-3.6-1.4c-1.7.1-2.9.6-3.6 1.5zM190.5 71.4L173 8.2h15.3s7.15 31.7 9.6 46.6h.4c2.78-15.82 9.8-46.6 9.8-46.6h15.3l-17.7 63.1v30.3h-15.1V71.4z"
                 />
-                <use xlink:href="#B" />
-                <use xlink:href="#B" x="78.9" />
                 <path
-                  d="M353.3 20.6H338v81.1h-15V20.6h-15.3V8.2h45.5v12.4zm87.9 23.7c-.9-4.3-2.4-7.4-4.5-9.4-2.1-1.9-4.9-2.9-8.6-2.9-2.8 0-5.5.8-7.9 2.4-2.5 1.6-4.3 3.7-5.7 6.3h-.1v-36h-14.8v96.9h12.7l1.6-6.5h.3c1.2 2.3 3 4.1 5.3 5.5a16.26 16.26 0 0 0 7.9 2c5.2 0 9-2.4 11.5-7.2 2.4-4.8 3.7-12.3 3.7-22.4V62.2c0-7.6-.5-13.6-1.4-17.9zm-14.1 27.9c0 5-.2 8.9-.6 11.7s-1.1 4.8-2.1 6-2.3 1.8-3.9 1.8c-1.3 0-2.4-.3-3.5-.9s-1.9-1.5-2.6-2.7V49.3c.5-1.9 1.4-3.4 2.7-4.6s2.6-1.8 4.1-1.8c1.6 0 2.8.6 3.6 1.8.9 1.2 1.4 3.3 1.8 6.2.3 2.9.5 7 .5 12.4z"
+                  id="A"
+                  d="M311.5 33.4v68.3h-12l-1.3-8.4h-.3c-3.3 6.3-8.2 9.5-14.7 9.5-11.77-.03-13.08-10-13.2-18.4v-51h15.4v50.1c0 3 .3 5.2 1 6.5 1.42 2.78 5.1 2.07 7.1.7a8 8 0 0 0 2.7-3.1V33.4z"
+                  fill="#282828"
+                />
+                <path
+                  d="M353.3 20.6H338v81.1h-15V20.6h-15.3V8.2h45.5v12.4zm87.9 23.7c-.9-4.3-2.4-7.4-4.5-9.4-2.1-1.9-4.9-2.9-8.6-2.9a14.1 14.1 0 0 0-7.9 2.4c-2.5 1.6-4.3 3.7-5.7 6.3h-.1v-36h-14.8v96.9h12.7l1.6-6.5h.3a14 14 0 0 0 5.3 5.5c2.4 1.3 5 2 7.9 2 5.2 0 9-2.4 11.5-7.2 2.4-4.8 3.7-12.3 3.7-22.4V62.2c0-7.6-.5-13.6-1.4-17.9zm-14.1 27.9c0 5-.2 8.9-.6 11.7s-1.1 4.8-2.1 6-2.3 1.8-3.9 1.8c-3.1-.1-4.86-1.5-6.1-3.6V49.3c.5-1.9 1.4-3.4 2.7-4.6 2.2-2.47 5.96-2.5 7.7 0 .9 1.2 1.4 3.3 1.8 6.2.3 2.9.5 7 .5 12.4z"
                 />
               </g>
-            </g>
-            <defs>
-              <path
-                id="B"
-                d="M311.5 33.4v68.3h-12l-1.3-8.4h-.3c-3.3 6.3-8.2 9.5-14.7 9.5-4.5 0-7.9-1.5-10-4.5-2.2-3-3.2-7.6-3.2-13.9v-51h15.4v50.1c0 3 .3 5.2 1 6.5s1.8 1.9 3.3 1.9c1.3 0 2.6-.4 3.8-1.2s2.1-1.9 2.7-3.1V33.4z"
-              />
-            </defs></svg
-        ></a>
+              <use xlink:href="#A" x="78.9" />
+            </svg>
+          </a>
+        </div>
       </div>
-      <div class="p-1 flex w-1/2 items-center p">
+      <div class="hidden p-2.5 flex w-1/2 items-center">
         <div class="flex w-full h-full">
           <input
             type="text"
-            name=""
+            name="name"
             placeholder="Search"
             class="w-full px-3 shadow-inner rounded-bl-sm rounded-tl-sm border border-gray-300 focus:border-blue-700 focus:outline-none"
           />
@@ -108,13 +104,26 @@
           </svg>
         </button>
       </div>
-      <div
-        class="flex items-center w-1/4 space-x-5 justify-end py-2 px-4 rounded-sm"
-      >
+      <div class="flex items-center w-1/4 space-x-4 sm:space-x-5 justify-end py-2 px-2">
+        <button>
+          <svg
+            class="w-5 h-5"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+
         <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
+            class="h-5 w-5"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -140,7 +149,7 @@
           </svg>
         </button>
         <button
-          class="hidden flex items-center px-2 py-1 text-sm text-blue-700 uppercase border border-blue-700 rounded-sm"
+          class="flex items-center whitespace-nowrap px-2 py-1 text-sm text-blue-700 uppercase border border-blue-700 rounded-sm"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -158,7 +167,122 @@
         </button>
       </div>
     </header>
-    <aside class="w-64 max-h-screen overflow-auto fixed top-0 pt-14">
+
+    <aside
+      class="min-h-screen hidden md:block xl:hidden overflow-auto fixed top-0 pt-14 bg-white z-20"
+    >
+      <section class=" ">
+        <ul>
+          <li>
+            <a
+              href="#"
+              class="flex flex-col items-center px-2 py-5 text-red-500 hover:bg-gray-100"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 mb-1.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                />
+              </svg>
+              <span class="text-xs"> Home </span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              class="flex flex-col items-center px-2 py-5 hover:bg-gray-100"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 mb-1.5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="text-xs"> Trending </span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex flex-col items-center px-2 py-5 hover:bg-gray-100"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 mb-1.5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"
+                />
+              </svg>
+              <span class="text-xs"> Subscriptions </span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              class="flex flex-col items-center px-2 py-5 hover:bg-gray-100"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 mb-1.5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"
+                />
+                <path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z" />
+              </svg>
+              <span class="text-xs"> Library </span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex flex-col items-center px-2 py-5 hover:bg-gray-100"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 mb-1.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <span class="text-xs"> History </span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </aside>
+
+    <aside
+      class="hidden xl:block w-64 max-h-screen overflow-auto fixed top-0 pt-14 bg-white z-20"
+    >
       <section class="py-2 border-b">
         <ul>
           <li>
@@ -625,116 +749,1548 @@
         <div class="font-normal text-gray-500">&copy; 2021 Google LLC</div>
       </section>
     </aside>
-    <section class="pt-14">
-      <div
-        class="ml-64 px-4 py-3 border-t border-b flex space-x-3 overflow-auto text-sm whitespace-nowrap"
-      >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-600 border border-gray-700 rounded-full hover:bg-gray-500 text-white"
-          >All</a
+    <section
+      class="pt-14 md:pl-24 xl:pl-64 fixed w-full bg-white bg-opacity-95 z-10"
+    >
+      <div class="border-t border-b">
+        <div
+          class="px-4 py-3 flex space-x-3 overflow-auto text-sm whitespace-nowrap max-w-screen-2xl m-auto"
         >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Trucks</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Tools</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Machines</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Engines</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Snow</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Ships</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Roads</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Tanks</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Building</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Mars</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Woodworking</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Tractors</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Songs</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >TV Shows</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Football</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Planes</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Live</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Streets</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Math</a
-        >
-        <a
-          href="#"
-          class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
-          >Programming</a
-        >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-600 border border-gray-700 rounded-full hover:bg-gray-500 text-white"
+            >All</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Trucks</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Tools</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Machines</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Engines</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Snow</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Ships</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Roads</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Tanks</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Building</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Mars</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Woodworking</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Tractors</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Songs</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >TV Shows</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Football</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Planes</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Live</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Streets</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Math</a
+          >
+          <a
+            href="#"
+            class="px-3 py-1 transition bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200"
+            >Programming</a
+          >
+        </div>
       </div>
     </section>
+
+    <main class="md:ml-24 xl:ml-64 pt-32 px-5 pb-5">
+      <div
+        class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 max-w-screen-2xl m-auto"
+      >
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://www.responsibletravel.org/wp-content/uploads/sites/213/2021/12/lake-tahoe.png"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://www.responsibletravel.org/wp-content/uploads/sites/213/2021/12/lake-tahoe.png"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://klike.net/uploads/posts/2022-09/1662091918_j-16.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://klike.net/uploads/posts/2022-09/1662091918_j-16.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://sportishka.com/uploads/posts/2022-02/thumbs/1645605747_44-sportishka-com-p-bereg-ozera-turizm-krasivo-foto-50.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://sportishka.com/uploads/posts/2022-02/thumbs/1645605747_44-sportishka-com-p-bereg-ozera-turizm-krasivo-foto-50.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://pibig.info/uploads/posts/2021-12/thumbs/1638423920_64-pibig-info-p-zimnyaya-reka-priroda-krasivo-foto-68.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://pibig.info/uploads/posts/2021-12/thumbs/1638423920_64-pibig-info-p-zimnyaya-reka-priroda-krasivo-foto-68.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://pibig.info/uploads/posts/2023-11/thumbs/1699278485_pibig-info-p-pole-oranzhevikh-tsvetov-krasivo-13.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://pibig.info/uploads/posts/2023-11/thumbs/1699278485_pibig-info-p-pole-oranzhevikh-tsvetov-krasivo-13.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://img.goodfon.com/original/1920x1200/c/1b/ozero-gory-les-zakat-derevya.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://img.goodfon.com/original/1920x1200/c/1b/ozero-gory-les-zakat-derevya.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img src="https://4kwallpaper.wiki/d/39029/ATTI25.jpg" class="" />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://4kwallpaper.wiki/d/39029/ATTI25.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://otvet-gadalki.ru/wp-content/uploads/2020/02/1.0-1.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://otvet-gadalki.ru/wp-content/uploads/2020/02/1.0-1.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://www.inpearls.ru/img/pearls/1906515-4764.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://www.inpearls.ru/img/pearls/1906515-4764.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://celes.club/uploads/posts/2022-09/thumbs/1662449161_33-celes-club-p-voskhodyashchee-solntse-priroda-39.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img src="" class="mr-3 rounded-full w-9 h-9" alt="" />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://i.pinimg.com/originals/f1/5b/06/f15b068b6f5eb9dba7aa94b4e2be01c3.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://i.pinimg.com/originals/f1/5b/06/f15b068b6f5eb9dba7aa94b4e2be01c3.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://celes.club/uploads/posts/2021-12/thumbs/1639733915_40-celes-club-p-belka-na-dereve-zimoi-grizuni-krasivo-foto-49.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://celes.club/uploads/posts/2021-12/thumbs/1639733915_40-celes-club-p-belka-na-dereve-zimoi-grizuni-krasivo-foto-49.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://koshka.top/uploads/posts/2021-11/1636422833_4-koshka-top-p-irbis-khvost-6.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://koshka.top/uploads/posts/2021-11/1636422833_4-koshka-top-p-irbis-khvost-6.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://kartinki.pics/uploads/posts/2022-03/thumbs/1646974668_52-kartinkin-net-p-belii-lev-kartinki-59.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://kartinki.pics/uploads/posts/2022-03/thumbs/1646974668_52-kartinkin-net-p-belii-lev-kartinki-59.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://cdn.fishki.net/upload/post/2023/02/16/4361921/97ed1234b74e6e29e492a00464f18a1e.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://cdn.fishki.net/upload/post/2023/02/16/4361921/97ed1234b74e6e29e492a00464f18a1e.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="" class="mb-7 group">
+          <div class="relative">
+            <img
+              src="https://zon.it/wp-content/uploads/2020/07/orso-1.jpg"
+              class=""
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-0 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-50 absolute top-8 right-0 bg-black text-white rounded-sm m-1 p-1"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-sm m-1 p-1 text-xs font-semibold"
+              >6:34</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="https://zon.it/wp-content/uploads/2020/07/orso-1.jpg"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title </span>
+              <div class="mt-1 flex items-center">
+                <span>Channel name 1 </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 ml-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="">
+                <span>1K views</span>
+                &middot;
+
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button
+              class="-mt-1 ml-auto pt-1 opacity-0 group-hover:opacity-100 text-gray-500 hover:text-gray-700 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+      </div>
+    </main>
   </body>
 </html>
